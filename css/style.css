@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: burlywood;
+  height: 10vh;
+  padding: 10px 200px;
+}
+header .logo h1 {
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+nav a {
+  color: black;
+}
+nav button {
+  border: none;
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  height: 90vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+}
+main .mane {
+  display: flex;
+  justify-content: space-between;
+  gap: 600px;
+}
+main .text {
+  width: 400px;
+  height: 300px;
+  margin-left: 100px;
+  font-size: x-large;
+}
+main .rasm {
+  width: 450px;
+  height: 500px;
+  background-color: #000;
+}
+main .rasm img {
+  width: 100%;
+}
